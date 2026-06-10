@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 export default function HeroDashboard() {
   return (
     <div className="relative w-full max-w-xl">
-<div className="absolute -inset-4 -z-10 rounded-[32px] bg-indigo-500/10 blur-3xl"/>
+<div className="absolute -inset-4 -z-10 rounded-[40px] bg-linear-to-r from-idigo-500/20 via-purple-500/10 to-cyan-500/20 blur-3xl animate-pulse"/>
       <Card className="border-white/10 bg-white/5 backdrop-blur-xl">
         <div className="space-y-6 p-6">
 
@@ -53,7 +53,7 @@ export default function HeroDashboard() {
             </p>
 
             <p className="mt-2 text-sm text-muted-foreground">
-              You're most productive between
+              You&apos;re most productive between
               9AM and 11AM. Consider scheduling
               your hardest work during that period.
             </p>

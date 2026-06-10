@@ -32,7 +32,7 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <button className="rounded-full">Let&apos;s Talk</button>
+          <Button asChild className="rounded-full"><a href="#contact">Let&apos;s Talk</a></Button>
         </nav>
         <div className="md:hidden">
           <Sheet>
