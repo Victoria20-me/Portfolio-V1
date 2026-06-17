@@ -40,7 +40,7 @@ export default function About() {
 
             <div className=" group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-4 transition-all duration-300 hover:border-white/20 hover:shadow-[0_0_40px_rgba(255,255,255,0.05)]">
               <Image
-                src="/images/headshot.jpeg"
+                src="/images/headshot2.jpeg"
                 alt="Ayomide"
                 width={700}
                 height={900}
