@@ -13,21 +13,22 @@ const navLinks = [
   { label: "Projects", href: "#projects" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
+  {label: "Resume", href: "/resume"}
 ];
 
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-background/80 backdrop-blur-xl">
       <div className="container-custom flex h-20 items-center justify-between">
-        <Link href="/" className="text-lg font-semibold tracking-tight">
-          Ayomide
+        <Link href="/" className="text-2xl font-semibold tracking-tight">
+          Ayomide Victoria Famoriyo
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm text-muted-foreground transition-colors hover:text-white"
+              className="text-2xl font-bold text-muted-foreground transition-colors hover:text-white"
             >
               {link.label}
             </Link>
